@@ -17,3 +17,15 @@
 
   http://www.imparareaprogrammare.it
 */
+
+// Esempio 1
+var numero_di_gatti = 44;
+var gatti_per_fila = 6;
+var numero_di_file = Math.ceil(numero_di_gatti/gatti_per_fila);
+var gatti_che_dovrebbero_essere_presenti = gatti_per_fila*numero_di_file;
+console.log(gatti_che_dovrebbero_essere_presenti - numero_di_gatti);
+
+// Esempio 2
+var tot_gatti = 44;
+var file_gatti = 6;
+console.log(((file_gatti*(Math.ceil(tot_gatti/file_gatti)))-tot_gatti));
